@@ -1,0 +1,46 @@
+* {
+    font-family: bold;
+    flex-wrap: wrap;
+}
+#navbar {
+
+    height: 40px;
+    width: auto;
+}
+#logo {
+    color: skyblue;
+    font-size: 20PX;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+
+}
+button {
+    background-color: skyblue;
+}
+a {
+    margin: 40px;
+    text-decoration: none
+   
+}
+.container { 
+    height: auto;
+    display:flex;
+    flex-direction:row;
+   
+    width: 100%;
+
+}
+.box {
+    margin: 10px 10px 10px 10px; 
+    border: 1px ;
+    height:440px;
+    text-align:center;
+    width: 300px;
+    display: inline-block;
+    background-color: skyblue;
+    
+}
+.box:hover {
+    opacity: 70%;
+    
+}
